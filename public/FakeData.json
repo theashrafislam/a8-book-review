@@ -1,0 +1,146 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Annotated Texas Family Code 2019",
+        "author": "Texas Legislature",
+        "image": "https://i.ibb.co/6v95Rnh/kindpng-81724-1.png",
+        "review": "The Annotated Texas Family Code 2019 is an essential reference for legal professionals, students, and anyone dealing with family law matters in Texas. This comprehensive volume contains the full text of the Texas Family Code along with annotations, case law references, and expert commentary to help readers navigate the complexities of family law in the state. Whether you're a practicing attorney, law student, or layperson, this book provides invaluable insights and analysis to assist you in understanding and applying the relevant statutes and regulations. With its thorough coverage and authoritative commentary, the Annotated Texas Family Code 2019 is an indispensable resource for anyone involved in family law practice or research.",
+        "totalPages": 1500,
+        "rating": 4.5,
+        "category": "Mystery",
+        "tags": [
+            "Suspense",
+            "Psychological"
+        ],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": 2,
+        "bookName": "The Hate U Give",
+        "author": "Angie Thomas",
+        "image": "https://i.ibb.co/VT63DVd/kindpng-1064993.png",
+        "review": "The Hate U Give is a powerful and timely novel that tackles issues of race, police brutality, and activism with honesty and empathy. The story follows Starr Carter, a sixteen-year-old girl who witnesses the fatal shooting of her unarmed friend Khalil at the hands of a police officer. As Starr grapples with the trauma of witnessing the shooting and the pressure to speak out, she finds herself torn between two worlds: the predominantly black neighborhood where she lives and the predominantly white prep school she attends. Thomas's writing is raw and unflinching, capturing the pain and anger of Starr's experience while also celebrating the resilience and strength of her community. The Hate U Give is a thought-provoking and emotionally resonant novel that encourages readers to confront difficult truths and take a stand against injustice.",
+        "totalPages": 464,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Romance"
+        ],
+        "publisher": "Doubleday",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 3,
+        "bookName": "Loving Jesus More",
+        "author": "John Doe",
+        "image": "https://i.ibb.co/gzBrdnn/kindpng-2193744-1.png",
+        "review": "Loving Jesus More is a heartfelt collection of devotions designed to help readers deepen their relationship with Christ and grow in their love for Him. Each devotion is crafted to inspire reflection, prayer, and practical application, offering insights into Scripture and personal anecdotes to encourage spiritual growth. Whether you're a new believer or a seasoned Christian, this book provides a valuable resource for nurturing your faith and drawing closer to Jesus. Through its accessible language and uplifting messages, Loving Jesus More invites readers to embark on a journey of spiritual renewal and discovery, ultimately leading to a deeper and more meaningful connection with the Savior.",
+        "totalPages": 200,
+        "rating": 4.4,
+        "category": "Thriller",
+        "tags": [
+            "Mystery",
+            "Marriage"
+        ],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2012
+    },
+    {
+        "bookId": 4,
+        "bookName": "Educated",
+        "author": "Tara Westover",
+        "image": "https://i.ibb.co/q0gwfSZ/kindpng-2592315-1.png",
+        "review": "Educated is a powerful memoir that chronicles Tara Westover's journey from growing up in a strict and abusive household in rural Idaho to eventually earning a PhD from Cambridge University. Westover's upbringing was unconventional, to say the least, with her parents rejecting mainstream education and medical care in favor of their own extreme beliefs. Despite facing numerous obstacles and challenges, including physical and emotional abuse, Westover perseveres and ultimately finds her own path to education and self-discovery. Her story is both heartbreaking and inspiring, offering a poignant reflection on the power of resilience and the importance of education. Westover's writing is raw and honest, pulling no punches in recounting the traumas of her past while also celebrating the triumphs of her journey. Educated is a compelling and unforgettable memoir that will leave a lasting impact on readers.",
+        "totalPages": 334,
+        "rating": 4.6,
+        "category": "Memoir",
+        "tags": [
+            "Education",
+            "Family"
+        ],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 5,
+        "bookName": "The Goldfinch",
+        "author": "Donna Tartt",
+        "image": "https://i.ibb.co/DKLtzJW/kindpng-4022054-1.png",
+        "review": "The Goldfinch is a sweeping and immersive novel that follows the life of Theo Decker, a young boy who survives a tragic accident that kills his mother and sets him on a journey of self-discovery and redemption. As Theo navigates the complexities of grief, loss, and identity, he becomes entangled in the seedy underworld of art theft and forgery, ultimately leading him to the titular painting, The Goldfinch. Tartt's prose is lush and evocative, painting a vivid portrait of Theo's world and the characters who inhabit it. The narrative is sprawling yet tightly woven, with themes of love, friendship, and fate interwoven throughout. The Goldfinch is a masterpiece of storytelling, blending elements of bildungsroman, mystery, and tragedy into a compelling and unforgettable narrative.",
+        "totalPages": 771,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Art",
+            "Loss"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 2013
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Martian",
+        "author": "Andy Weir",
+        "image": "https://i.ibb.co/b1PZ6PG/kindpng-4945926-1-1.png",
+        "review": "The Martian is a thrilling science fiction novel that follows astronaut Mark Watney's harrowing struggle for survival after being stranded on Mars. Left for dead by his crewmates during a dust storm, Watney must rely on his ingenuity and resourcefulness to overcome seemingly insurmountable odds and find a way to signal Earth for rescue. Weir's attention to scientific detail is impressive, grounding the story in realism and making Watney's survival tactics feel plausible and compelling. Despite the high stakes and life-threatening challenges, The Martian is also surprisingly funny, thanks to Watney's irreverent humor and resilient spirit.",
+        "totalPages": 369,
+        "rating": 4.8,
+        "category": "Science Fiction",
+        "tags": [
+            "Survival",
+            "Space"
+        ],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 7,
+        "bookName": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "image": "https://i.ibb.co/nsBS96h/kindpng-5624060-1.png",
+        "review": "The Girl on the Train is a gripping psychological thriller that will keep you guessing until the very end. The story centers around Rachel Watson, a troubled woman who becomes entangled in a missing persons investigation after witnessing something suspicious from the train window during her daily commute. As Rachel delves deeper into the mystery, she becomes obsessed with uncovering the truth, leading her down a dangerous path of deception and betrayal. Hawkins weaves together multiple perspectives and timelines, keeping readers guessing about the true nature of the characters' motivations and the events that unfold. The pacing is relentless, with twists and turns that will leave you breathless. The Girl on the Train is a compulsively readable thriller that explores themes of memory, perception, and the darker side of human nature.",
+        "totalPages": 336,
+        "rating": 4.2,
+        "category": "Suspense",
+        "tags": [
+            "Mystery",
+            "Deception"
+        ],
+        "publisher": "Riverhead Books",
+        "yearOfPublishing": 2015
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/rG9yVSq/kindpng-7318921.png",
+        "review": "The Catcher in the Rye is a classic coming-of-age novel that has captivated readers for generations. The story follows Holden Caulfield, a disaffected teenager who embarks on a journey of self-discovery after being expelled from prep school. As Holden wanders the streets of New York City, he grapples with themes of alienation, identity, and the loss of innocence. Salinger's prose is spare yet evocative, capturing the angst and disillusionment of youth with striking clarity. Holden's voice is authentic and unforgettable, making him a relatable and sympathetic protagonist despite his flaws. The Catcher in the Rye remains as relevant today as it was when it was first published, offering timeless insights into the struggles of adolescence and the search for meaning in a complex world.",
+        "totalPages": 224,
+        "rating": 4.0,
+        "category": "Classic",
+        "tags": [
+            "Coming-of-age",
+            "Alienation"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 9,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/hCR1P8V/pngwing-1.png",
+        "review": "To Kill a Mockingbird is a timeless classic that tackles issues of race, injustice, and morality with grace and empathy. Set in the fictional town of Maycomb, Alabama, during the 1930s, the story follows young Scout Finch as she navigates the complexities of growing up in a racially divided society. When her father, Atticus Finch, a lawyer, defends a black man falsely accused of raping a white woman, Scout and her brother Jem are forced to confront the harsh realities of prejudice and discrimination. Lee's writing is poignant and powerful, capturing the innocence of childhood alongside the harsh realities of the adult world. The characters are richly drawn, and the themes are as relevant today as they were when the book was first published. To Kill a Mockingbird is a must-read for readers of all ages, offering a compelling reminder of the importance of empathy, compassion, and standing up for what is right.",
+        "totalPages": 281,
+        "rating": 4.9,
+        "category": "Classic",
+        "tags": [
+            "Race",
+            "Injustice"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    }
+]
