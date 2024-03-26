@@ -4,12 +4,13 @@ import { SiPowerpages } from "react-icons/si";
 import { IoLocationOutline } from "react-icons/io5";
 
 const ReadBooks = () => {
-    const saveLocalStorage = localStorage.getItem('read-books')
-    // console.log(saveLocalStorage)
-    const books = useLoaderData()
+    const saveLocalStorage = localStorage.getItem('read-books');
+    const bookId = JSON.parse(saveLocalStorage);
+    // console.log(typeof bookId)
+    const books = useLoaderData();
     // console.log(books)
-    const book = books.find(book => book.bookId === JSON.parse(saveLocalStorage));
-    console.log(book, books, saveLocalStorage)
+    const book = books.find(book => book?.bookId == bookId);
+
     return (
         <div className="my-16">
             <div className="flex gap-4 border-2 rounded-xl p-4">

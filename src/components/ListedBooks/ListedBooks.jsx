@@ -11,7 +11,6 @@ const ListedBooks = () => {
                 <h1 className="text-3xl font-bold">Books</h1>
             </div>
             <div>
-
             </div>
             <div>
                 <div className="flex ml-1 lg:justify-start -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800">
