@@ -15,6 +15,8 @@ import BookDetails from './components/BookDetails/BookDetails';
 import ReadBooks from './components/ReadBooks/ReadBooks';
 import WishListBooks from './components/WishListBooks/WishListBooks';
 import Error from './components/Error/Error';
+import AboutUs from './Pages/AboutUs';
+import ContactUs from './Pages/ContactUs';
 // import Banner from './components/Banner/Banner';
 
 
@@ -42,7 +44,8 @@ const router = createBrowserRouter([
       },
       {
         path: "wishListBooks",
-        element: <WishListBooks></WishListBooks>
+        element: <WishListBooks></WishListBooks>,
+        loader: () => fetch('/FakeData.json')
       }
     ]
   },
@@ -63,6 +66,14 @@ const router = createBrowserRouter([
     element: <BookDetails></BookDetails>,
     loader: () => fetch('/FakeData.json')
   },
+  {
+    path: "/aboutUs",
+    element: <AboutUs></AboutUs>
+  },
+  {
+    path: "/contactUs",
+    element: <ContactUs></ContactUs>
+  }
   
 ]);
 

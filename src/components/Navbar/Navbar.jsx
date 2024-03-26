@@ -13,6 +13,8 @@ const Navbar = () => {
                         <NavLink to="/" id="hoverStyle" className={({isActive}) => isActive ? "px-5 py-3 border-2 border-[#23BE0A] rounded-xl text-lg font-semibold" : ""}>Home</NavLink>
                         <NavLink to="/listedBooks" id="hoverStyle" className={({isActive}) => isActive ? "px-5 py-3 border-2 border-[#23BE0A] rounded-xl text-lg font-semibold" : ""}>Listed Books</NavLink>
                         <NavLink to="/pagesToRead" id="hoverStyle" className={({isActive}) => isActive ? "px-5 py-3 border-2 border-[#23BE0A] rounded-xl text-lg font-semibold" : ""}>Pages to Read</NavLink>
+                        <NavLink to="/aboutUs" id="hoverStyle" className={({isActive}) => isActive ? "px-5 py-3 border-2 border-[#23BE0A] rounded-xl text-lg font-semibold" : ""}>About Us</NavLink>
+                        <NavLink to="/contactUs" id="hoverStyle" className={({isActive}) => isActive ? "px-5 py-3 border-2 border-[#23BE0A] rounded-xl text-lg font-semibold" : ""}>Contact Us</NavLink>
                     </div>
                 </div>
                 <div className="navbar-end">
