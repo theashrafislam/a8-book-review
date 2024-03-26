@@ -14,7 +14,7 @@ const ListedBooks = () => {
 
             </div>
             <div>
-                <div className="flex lg:justify-start -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800">
+                {/* <div className="flex ml-1 lg:justify-start -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800">
 
                         <Link to="" onClick={() => setIndex(0)} rel="noopener noreferrer" href="#" className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b dark:border-gray-600 dark:text-gray-600 ${index === 0 ? "border border-b-0" : "border-b"}`}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
@@ -31,7 +31,7 @@ const ListedBooks = () => {
                             </svg>
                             <span>Wishlist Books</span>
                         </Link>
-                </div>
+                </div> */}
 
             </div>
             <Outlet></Outlet>
