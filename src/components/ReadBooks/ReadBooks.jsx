@@ -5,20 +5,21 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const ReadBooks = () => {
     const saveLocalStorage = localStorage.getItem('read-books');
-    const bookId = JSON.parse(saveLocalStorage);
-    // console.log(typeof bookId)
+    // console.log(saveLocalStorage)
+    const bookIds = JSON.parse(saveLocalStorage);
+    // const bookNum = parseInt(bookIds)
     const books = useLoaderData();
-    // console.log(books)
-    const book = books.find(book => book?.bookId == bookId);
-
+    const book = books.filter(book => bookIds.includes(book.bookId));
+    console.log(book)
     return (
         <div className="my-16">
+            
             <div className="flex gap-4 border-2 rounded-xl p-4">
                 <div className="bg-[#1313130D] p-4 rounded-xl">
                     <img src='https://i.ibb.co/hCR1P8V/pngwing-1.png' alt="" />
                 </div>
                 <div className="w-full">
-                    <h2 className="text-2xl font-bold mb-2">Title</h2>
+                    <h2 className="text-2xl font-bold mb-2">title</h2>
                     <p><span className="text-base font-medium">By: ashrful</span></p>
                     <div className="flex gap-4 items-center mt-2">
                         <p className="font-bold">Tag:</p>
@@ -39,6 +40,7 @@ const ReadBooks = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
