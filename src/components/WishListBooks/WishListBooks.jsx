@@ -1,10 +1,10 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { IoPeopleOutline } from "react-icons/io5";
 import { SiPowerpages } from "react-icons/si";
 import { IoLocationOutline } from "react-icons/io5";
 const WishListBooks = () => {
     const saveLocalStorage = localStorage.getItem('wishList');
-    const bookIds = JSON.parse(saveLocalStorage);
+    const bookIds = JSON.parse(saveLocalStorage) || [];
     const books = useLoaderData();
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
     // console.log(filteredBooks)
@@ -23,7 +23,7 @@ const WishListBooks = () => {
                                 <div className="flex gap-4 items-center mt-2">
                                     <p className="font-bold">Tag:</p>
                                     <div className="flex items-center gap-3">
-                                        {book.tags.map(tag => (
+                                        {book?.tags?.map(tag => (
                                             <span key={tag} className="text-[#23BE0A] font-medium bg-[#23BE0A0D] px-4 py-1 rounded-3xl">#{tag}</span>
                                         ))}
                                         <span className="flex items-center gap-1 text-[#13131399]"><IoLocationOutline className="text-xl" /> <span>Year Of Publishing: {book.yearOfPublishing}</span></span>
@@ -36,7 +36,9 @@ const WishListBooks = () => {
                                 <div className="flex gap-3 items-center pt-2 border-t-2">
                                     <h3 className="px-4 py-2 bg-[#328EFF26] text-[#328EFF] rounded-3xl">Category: {book.category}</h3>
                                     <h3 className="px-4 py-2 bg-[#FFAC3326] text-[#FFAC33] rounded-3xl">Rating: {book.rating}</h3>
-                                    <button className="px-4 py-2 bg-[#23BE0A] text-white rounded-3xl">View Details</button>
+                                    <Link to={`/bookDetails/${book.bookId}`}>
+                                        <button className="px-4 py-2 bg-[#23BE0A] text-white rounded-3xl">View Details</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

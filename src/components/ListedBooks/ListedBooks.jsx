@@ -1,10 +1,11 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet} from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
 
 const ListedBooks = () => {
-    const [index, setIndex] = useState(0)
+    const [index, setIndex] = useState(0);
+
     return (
         <div className="container mx-auto">
             <Navbar></Navbar>
@@ -14,12 +15,11 @@ const ListedBooks = () => {
 
             <div className="flex justify-center items-center my-5">
                 <details className="dropdown">
-                    <summary className="m-1 btn bg-[#23BE0A] text-white hover:text-black font-bold">Sort By <FaChevronDown className="font-bold"/></summary>
+                    <summary className="m-1 btn bg-[#23BE0A] text-white hover:text-black font-bold">Sort By <FaChevronDown className="font-bold" /></summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li><a onClick={() => handleRating(Rating)}>Rating</a></li>
-                        <li><a>Item 2</a></li>
-                        <li><a>Item 2</a></li>
-                        <li><a>Item 2</a></li>
+                        <li><a>Rating</a></li>
+                        <li><a>Number of Pages</a></li>
+                        <li><a>Published Year</a></li>
                     </ul>
                 </details>
             </div>

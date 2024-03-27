@@ -17,7 +17,6 @@ import WishListBooks from './components/WishListBooks/WishListBooks';
 import Error from './components/Error/Error';
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';
-// import Banner from './components/Banner/Banner';
 
 
 const router = createBrowserRouter([
