@@ -6,9 +6,9 @@ const ContactUs = () => {
         <div className="container mx-auto">
             <Navbar></Navbar>
 
-            <div className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 my-5 rounded-3xl">
+            <div className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 my-5 rounded-3xl mx-4 lg:mx-0">
                 <div className="max-w-3xl mx-auto">
-                    <h1 className="text-4xl font-bold text-gray-900 mb-8">Contact Us</h1>
+                    <h1 className="lg:text-4xl text-3xl font-bold text-gray-900 mb-8">Contact Us</h1>
                     <p className="text-lg text-gray-800 leading-relaxed mb-8">
                         If you have any questions, comments, or suggestions, please feel free to get in touch with us.
                         You can contact us at the following address:

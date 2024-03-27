@@ -38,31 +38,31 @@ const PageToRead = () => {
                     filteredBooks.length > 0 && (
                         <div className="py-12">
 
-                            <BarChart
-                                width={1400}
-                                height={600}
-                                data={filteredBooks}
-                                margin={{
-                                    top: 20,
-                                    right: 30,
-                                    left: 20,
-                                    bottom: 5
-                                }}
-                            >
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis dataKey="bookName" />
-                                <YAxis />
-                                <Bar
-                                    dataKey="totalPages"
-                                    fill="#8884d8"
-                                    shape={<TriangleBar />}
-                                    label={{ position: "top" }}
+                                <BarChart
+                                    width={1400}
+                                    height={600}
+                                    data={filteredBooks}
+                                    margin={{
+                                        top: 20,
+                                        right: 30,
+                                        left: 20,
+                                        bottom: 5
+                                    }}
                                 >
-                                    {filteredBooks.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-                                    ))}
-                                </Bar>
-                            </BarChart>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="bookName" />
+                                    <YAxis />
+                                    <Bar
+                                        dataKey="totalPages"
+                                        fill="#8884d8"
+                                        shape={<TriangleBar />}
+                                        label={{ position: "top" }}
+                                    >
+                                        {filteredBooks.map((entry, index) => (
+                                            <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                                        ))}
+                                    </Bar>
+                                </BarChart>
 
                         </div>
                     )

@@ -9,12 +9,12 @@ const WishListBooks = () => {
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
     // console.log(filteredBooks)
     return (
-        <div className="my-16 space-y-5">
+        <div className="my-16 space-y-5 mx-4 lg:mx-0">
             {
                 filteredBooks.length > 0 && (
                     filteredBooks.map(book => (
-                        <div key={book.bookId} className="flex gap-4 border-2 rounded-xl p-4">
-                            <div className="bg-[#1313130D] p-4 rounded-xl">
+                        <div key={book.bookId} className="flex gap-4 border-2 rounded-xl p-4 flex-col lg:flex-row">
+                            <div className="bg-[#1313130D] p-4 rounded-xl flex justify-center items-center lg:flex-none">
                                 <img className="w-36" src={book.image} alt={book.title} />
                             </div>
                             <div className="w-full">

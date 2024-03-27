@@ -10,7 +10,7 @@ const ReadBooks = () => {
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
     console.log(filteredBooks)
     return (
-        <div className="my-16 space-y-5">
+        <div className="my-16 space-y-5 mx-4 lg:mx-0">
             {
                 filteredBooks.length > 0 && (
                     filteredBooks.map(book => (
@@ -23,7 +23,7 @@ const ReadBooks = () => {
                                 <p><span className="text-base font-medium">By: {book.author}</span></p>
                                 <div className="flex gap-2 items-center mt-2">
                                     <p className="font-bold">Tag:</p>
-                                    <div className="flex items-center gap-3">
+                                    <div className="flex items-center gap-3 flex-col lg:flex-row">
                                         {book.tags.map(tag => (
                                             <span key={tag} className="text-[#23BE0A] font-medium bg-[#23BE0A0D] px-4 py-1 rounded-3xl">#{tag}</span>
                                         ))}

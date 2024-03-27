@@ -12,11 +12,11 @@ const ListedBooks = () => {
                 <h1 className="text-3xl font-bold">Books</h1>
             </div>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center my-5">
                 <details className="dropdown">
                     <summary className="m-1 btn bg-[#23BE0A] text-white hover:text-black font-bold">Sort By <FaChevronDown className="font-bold"/></summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
+                        <li><a onClick={() => handleRating(Rating)}>Rating</a></li>
                         <li><a>Item 2</a></li>
                         <li><a>Item 2</a></li>
                         <li><a>Item 2</a></li>
@@ -43,26 +43,6 @@ const ListedBooks = () => {
                         <span>Wishlist Books</span>
                     </Link>
                 </div>
-
-                {/* <div>
-                    <Tabs>
-                        <TabList>
-                            <Tab>Read Books</Tab>
-                            <Tab>Wishlist Books</Tab>
-                        </TabList>
-
-                        <TabPanel>
-                            <Link to="">
-                                
-                            </Link>
-                        </TabPanel>
-                        <TabPanel>
-                            <Link to={`wishListBooks`}>
-
-                            </Link>
-                        </TabPanel>
-                    </Tabs>
-                </div> */}
 
             </div>
             <Outlet></Outlet>
