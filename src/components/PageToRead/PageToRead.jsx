@@ -5,13 +5,11 @@ import Navbar from "../Navbar/Navbar";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 
-
 const PageToRead = () => {
     const saveLocalStorage = localStorage.getItem('read-books');
     const bookIds = JSON.parse(saveLocalStorage);
     const books = useLoaderData();
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
-
 
     // console.log(filteredBooks)
 
@@ -38,7 +36,8 @@ const PageToRead = () => {
 
                 {
                     filteredBooks.length > 0 && (
-                        <div>
+                        <div className="py-12">
+
                             <BarChart
                                 width={1400}
                                 height={600}
@@ -64,6 +63,7 @@ const PageToRead = () => {
                                     ))}
                                 </Bar>
                             </BarChart>
+
                         </div>
                     )
                 }
