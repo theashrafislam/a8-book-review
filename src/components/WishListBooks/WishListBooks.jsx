@@ -7,7 +7,7 @@ const WishListBooks = () => {
     const bookIds = JSON.parse(saveLocalStorage);
     const books = useLoaderData();
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
-    console.log(filteredBooks)
+    // console.log(filteredBooks)
     return (
         <div className="my-16 space-y-5">
             {

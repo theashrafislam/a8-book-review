@@ -51,7 +51,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/pagesToRead",
-    element: <PageToRead></PageToRead>
+    element: <PageToRead></PageToRead>,
+    loader: () => fetch('/FakeData.json')
   },
   {
     path: "/signInPage",

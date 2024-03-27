@@ -5,14 +5,14 @@ import { useState } from "react";
 const ListedBooks = () => {
     const [index, setIndex] = useState(0)
     return (
-        <div className="container  mx-auto">
+        <div className="container mx-auto">
             <Navbar></Navbar>
-            <div className="bg-[#1313130D] flex justify-center py-10 rounded-xl my-10">
+            <div className="bg-[#1313130D] flex justify-center py-10 rounded-xl my-10 mx-4 lg:mx-0">
                 <h1 className="text-3xl font-bold">Books</h1>
             </div>
             <div>
             </div>
-            <div>
+            <div className="mx-4 lg:mx-0">
                 <div className="flex mx-1 lg:justify-start overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800 border-b-2">
 
                         <Link to="/listedBooks" onClick={() => setIndex(0)} rel="noopener noreferrer" href="#" className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b dark:border-gray-600 dark:text-gray-600 ${index == 0 ? "border border-b-0" : "border-b"}`}>

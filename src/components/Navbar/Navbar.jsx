@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center lg:hidden mx-4">
                 <div>
                     <details className="dropdown">
-                        <summary className="m-1 btn"><HiOutlineMenuAlt1 /></summary>
+                        <summary className="m-1 btn"><HiOutlineMenuAlt1 className="text-xl"/></summary>
                         <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                             <li><a><NavLink to="/" >Home</NavLink></a></li>
                             <li><a><NavLink to="/listedBooks">Listed Books</NavLink></a></li>
