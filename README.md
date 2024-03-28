@@ -10,3 +10,6 @@
 * Provides users with tools to efficiently organize and manage their reading lists, enhancing the overall reading experience.
 * Utilizes data analytics to deliver relevant book suggestions and track reading progress, ensuring continuous improvement and user satisfaction.
 * Encourages users to explore new authors, genres, and literary trends, facilitating a diverse and enriching reading journey.
+
+
+**Thank You**
