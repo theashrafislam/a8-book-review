@@ -20,8 +20,8 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div>
-                        <Link to="/signInPage"><button className="py-4 px-5 rounded-xl bg-[#23BE0A] text-lg text-white font-semibold mr-4">Sign In</button></Link>
-                        <Link to="/signUpPage"><button className="py-4 px-5 rounded-xl bg-[#59C6D2] text-lg text-white font-semibold">Sign Up</button></Link>
+                        <button className="py-4 px-5 rounded-xl bg-[#23BE0A] text-lg text-white font-semibold mr-4">Sign In</button>
+                        <button className="py-4 px-5 rounded-xl bg-[#59C6D2] text-lg text-white font-semibold">Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@ const Navbar = () => {
                     <Link to="/" id="bookVide" className="text-2xl font-bold">Book Vibe</Link>
                 </div>
                 <div>
-                    <Link to="/signInPage"><button className="py-2 px-3 rounded-xl bg-[#23BE0A] text-base text-white font-medium mr-4">Sign In</button></Link>
-                    <Link to="/signUpPage"><button className="py-2 px-3 rounded-xl bg-[#59C6D2] text-base text-white font-medium">Sign Up</button></Link>
+                    <button className="py-2 px-3 rounded-xl bg-[#23BE0A] text-base text-white font-medium mr-4">Sign In</button>
+                    <button className="py-2 px-3 rounded-xl bg-[#59C6D2] text-base text-white font-medium">Sign Up</button>
                 </div>
             </div>
 

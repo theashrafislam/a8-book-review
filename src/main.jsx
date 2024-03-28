@@ -8,8 +8,6 @@ import {
 import Home from './Pages/Home';
 import ListedBooks from './components/ListedBooks/ListedBooks';
 import PageToRead from './components/PageToRead/PageToRead';
-import SignInPage from './components/SignInPage/SignInPage';
-import SignUpPage from './components/SignUpPage/SignUpPage';
 import Books from './components/Books/Books';
 import BookDetails from './components/BookDetails/BookDetails';
 import Error from './components/Error/Error';
@@ -39,14 +37,6 @@ const router = createBrowserRouter([
     path: "/pagesToRead",
     element: <PageToRead></PageToRead>,
     loader: () => fetch('/FakeData.json')
-  },
-  {
-    path: "/signInPage",
-    element: <SignInPage></SignInPage>
-  },
-  {
-    path: "/signUpPage",
-    element: <SignUpPage></SignUpPage>
   },
   {
     path: "/bookDetails/:id",

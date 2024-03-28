@@ -10,11 +10,8 @@ const PageToRead = () => {
 
     const localStorageToReadData = localStorage.getItem('read-books');
     const bookIds = JSON.parse(localStorageToReadData) || [];
-    // console.log(typeof bookIds)
     const books = useLoaderData();
-    // console.log(books)
     const filteredBooks = books.filter(book => bookIds.includes(book.bookId));
-    // console.log(filteredBooks);
 
     const getPath = (x, y, width, height) => {
         return `M${x},${y + height}C${x + width / 3},${y + height} ${x + width / 2},${y + height / 3}
@@ -36,7 +33,6 @@ const PageToRead = () => {
             <div className="bg-[#13131308] w-full rounded-xl flex justify-center">
                 {
                     filteredBooks.length > 0 && (
-                            // console.log(item)
                             <div className="my-12 w-full overflow-x-scroll">
                                 <BarChart
                                     width={1300}
