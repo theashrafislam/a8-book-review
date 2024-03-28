@@ -1,9 +1,10 @@
-# React + Vite
+Website Name: Book Vibe
+Website Live URL: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here are five characteristics of Book Vibe:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+* Book Vibe prioritizes user preferences, offering personalized recommendations and tailored reading experiences.
+* Fosters a vibrant community of readers through interactive features such as community reviews and reading challenges.
+* Provides users with tools to efficiently organize and manage their reading lists, enhancing the overall reading experience.
+* Utilizes data analytics to deliver relevant book suggestions and track reading progress, ensuring continuous improvement and user satisfaction.
+* Encourages users to explore new authors, genres, and literary trends, facilitating a diverse and enriching reading journey.
