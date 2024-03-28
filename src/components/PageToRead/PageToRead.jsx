@@ -36,7 +36,7 @@ const PageToRead = () => {
                 {
                     filteredBooks.length > 0 && (
                             // console.log(item)
-                            <div className="my-12">
+                            <div className="my-12 w-full overflow-x-scroll">
                                 <BarChart
                                     width={1300}
                                     height={600}

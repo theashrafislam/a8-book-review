@@ -2,27 +2,35 @@ import { Link, useLoaderData } from "react-router-dom";
 import { IoPeopleOutline } from "react-icons/io5";
 import { SiPowerpages } from "react-icons/si";
 import { IoLocationOutline } from "react-icons/io5";
-import { useEffect, useState } from "react";
 
-const ReadBooks = () => {
+const ReadBooks = ({sort}) => {
+    const saveLocalStorage = localStorage.getItem('read-books');
+    const bookIds = JSON.parse(saveLocalStorage) || [];
+    const books = useLoaderData();
+    const filteredBooks = bookIds ? books.filter(book => bookIds.includes(book.bookId)) : [];
 
-    const [readBookData, setReadBookData] = useState([]);
-    useEffect( () => {
-        const saveLocalStorage = localStorage.getItem('read-books');
-        const bookIds = JSON.parse(saveLocalStorage) || [];
-        const books = useLoaderData();
-        const filteredBooks = bookIds ? books.filter(book => bookIds.includes(book.bookId)) : [];
-        setReadBookData(filteredBooks);
-    }, [])
-
-
-
-
+    let displayData = [...filteredBooks];
+    if(sort == "rating"){
+        displayData = displayData.sort(
+            (firstBook, secondBook) => secondBook.rating - firstBook.rating
+          );
+    }
+    if(sort == "totalPages"){
+        displayData = displayData.sort(
+            (firstBook, secondBook) => secondBook.totalPages - firstBook.totalPages
+          );
+    }
+    if(sort == "publishedYear"){
+        displayData = displayData.sort(
+            (firstBook, secondBook) => secondBook.yearOfPublishing - firstBook.yearOfPublishing
+          );
+    }
+    
     return (
         <div className="my-16 space-y-5 mx-4 lg:mx-0">
             {
-                readBookData.length > 0 && (
-                    readBookData.map(book => (
+                displayData.length > 0 && (
+                    displayData.map(book => (
                         <div key={book.bookId} className="flex gap-4 border-2 rounded-xl p-4 flex-col lg:flex-row">
                             <div className="bg-[#1313130D] p-4 rounded-xl flex justify-center lg:flex-none">
                                 <img className="w-36" src={book.image} alt={book.title} />

@@ -29,7 +29,7 @@ const BookDetails = () => {
     return (
         <div className="container mx-auto">
             <Navbar></Navbar>
-            <div className="grid grid-cols-2 justify-center gap-10 my-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-center gap-10 my-10 mx-4 lg:mx-0">
                 <div className="bg-[#1313130D] flex justify-center items-center rounded-xl">
                     <img src={image} className="w-80 py-20" alt="" />
                 </div>
