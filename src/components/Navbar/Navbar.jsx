@@ -33,11 +33,11 @@ const Navbar = () => {
                     <details className="dropdown">
                         <summary className="m-1 btn"><HiOutlineMenuAlt1 className="text-xl"/></summary>
                         <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                            <li><a><NavLink to="/" >Home</NavLink></a></li>
-                            <li><a><NavLink to="/listedBooks">Listed Books</NavLink></a></li>
-                            <li><a><NavLink to="/pagesToRead">Pages to Read</NavLink></a></li>
-                            <li><a><NavLink to="/aboutUs">About Us</NavLink></a></li>
-                            <li><a><NavLink to="/contactUs">Contact Us</NavLink></a></li>
+                            <NavLink to="/"><li><a>Home</a></li></NavLink>
+                            <NavLink to="/listedBooks"><li><a>Listed Books</a></li></NavLink>
+                            <NavLink to="/pagesToRead"><li><a>Pages to Read</a></li></NavLink>
+                            <NavLink to="/aboutUs"><li><a>About Us</a></li></NavLink>
+                            <NavLink to="/contactUs"><li><a>Contact Us</a></li></NavLink>
                         </ul>
                     </details>
                 </div>
