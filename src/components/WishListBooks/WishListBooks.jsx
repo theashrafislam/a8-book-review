@@ -2,6 +2,8 @@ import { Link, useLoaderData } from "react-router-dom";
 import { IoPeopleOutline } from "react-icons/io5";
 import { SiPowerpages } from "react-icons/si";
 import { IoLocationOutline } from "react-icons/io5";
+import PropTypes from 'prop-types';
+
 const WishListBooks = ({sort}) => {
     const saveLocalStorage = localStorage.getItem('wishList');
     const bookIds = JSON.parse(saveLocalStorage) || [];
@@ -66,5 +68,9 @@ const WishListBooks = ({sort}) => {
         </div>
     );
 };
+
+WishListBooks.propTypes = {
+    sort: PropTypes.string,
+}
 
 export default WishListBooks;

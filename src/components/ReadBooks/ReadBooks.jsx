@@ -2,6 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import { IoPeopleOutline } from "react-icons/io5";
 import { SiPowerpages } from "react-icons/si";
 import { IoLocationOutline } from "react-icons/io5";
+import PropTypes from 'prop-types';
 
 const ReadBooks = ({sort}) => {
     const saveLocalStorage = localStorage.getItem('read-books');
@@ -66,5 +67,9 @@ const ReadBooks = ({sort}) => {
         </div>
     );
 };
+
+ReadBooks.propTypes = {
+    sort: PropTypes.string,
+}
 
 export default ReadBooks;

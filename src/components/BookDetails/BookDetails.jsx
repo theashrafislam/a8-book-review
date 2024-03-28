@@ -34,7 +34,7 @@ const BookDetails = () => {
                     <img src={image} className="w-80 py-20" alt="" />
                 </div>
                 <div className="space-y-4">
-                    <h1 className="font-bold text-4xl">{bookName}</h1>
+                    <h1 className="font-bold text-3xl lg:text-4xl">{bookName}</h1>
                     <p className="font-medium">By: {author}</p>
                     <p className="py-3 border-t-2 border-b-2 font-medium">{category}</p>
                     <p><span className="font-bold">Review:</span> {review}</p>

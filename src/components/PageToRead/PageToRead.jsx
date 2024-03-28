@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import PropTypes from 'prop-types';
 
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 
@@ -65,5 +66,13 @@ const PageToRead = () => {
         </div>
     );
 };
+
+PageToRead.propTypes = {
+    fill: PropTypes.string,
+    x: PropTypes.string,
+    y: PropTypes.string,
+    width: PropTypes.string,
+    height: PropTypes.string,
+}
 
 export default PageToRead;
