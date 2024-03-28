@@ -33,7 +33,7 @@ const PageToRead = () => {
             <div className="bg-[#13131308] w-full rounded-xl flex justify-center">
                 {
                     filteredBooks.length > 0 && (
-                            <div className="my-12 w-full overflow-x-scroll">
+                            <div className="my-12 w-full overflow-x-scroll overflow-y-scroll">
                                 <BarChart
                                     width={1300}
                                     height={600}

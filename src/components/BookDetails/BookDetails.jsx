@@ -38,7 +38,7 @@ const BookDetails = () => {
                     <p className="font-medium">By: {author}</p>
                     <p className="py-3 border-t-2 border-b-2 font-medium">{category}</p>
                     <p><span className="font-bold">Review:</span> {review}</p>
-                    <div className="flex gap-4 items-center">
+                    <div className="flex gap-4 items-center pb-4 border-b-2">
                         <div>
                             <p className="font-bold">Tag: </p>
                         </div>
