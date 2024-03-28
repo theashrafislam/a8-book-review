@@ -1,9 +1,9 @@
-Website Name: Book Vibe
+**Website Name:** Book Vibe
 
 
-Website Live URL: 
+**Website Live URL:** 
 
-Here are five characteristics of Book Vibe:
+**Here are five characteristics of Book Vibe:**
 
 * Book Vibe prioritizes user preferences, offering personalized recommendations and tailored reading experiences.
 * Fosters a vibrant community of readers through interactive features such as community reviews and reading challenges.
