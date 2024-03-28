@@ -42,7 +42,7 @@ const WishListBooks = ({sort}) => {
                                 <p><span className="text-base font-medium">By: {book.author}</span></p>
                                 <div className="flex gap-4 items-center mt-2">
                                     <p className="font-bold">Tag:</p>
-                                    <div className="flex items-center gap-3">
+                                    <div className="flex items-center gap-3 flex-col lg:flex-row">
                                         {book?.tags?.map(tag => (
                                             <span key={tag} className="text-[#23BE0A] font-medium bg-[#23BE0A0D] px-4 py-1 rounded-3xl">#{tag}</span>
                                         ))}
