@@ -4,10 +4,10 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="navbarAll">
             <div className="navbar bg-base-100 hidden lg:flex">
                 <div className="navbar-start">
-                    <Link to="/" id="bookVide" className="text-3xl font-bold">Book Vibe</Link>
+                    <Link to="/" className="text-3xl font-bold">Book Vibe</Link>
                 </div>
                 <div className="navbar-center">
                     <div className="flex gap-6 justify-center items-center">
